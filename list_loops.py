@@ -31,3 +31,9 @@ animals = ["Cat", "Dog", "Bird"]
 #Task 2 under Question 6
 animals.append("Turtle")
 #Task 3 under Question 6
+print(animals[2])
+#Task 4 under Question 6
+del animals[0]
+#Task 5 under Question 6
+for i in range(len(animals)):
+    print(animals[i])
